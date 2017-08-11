@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <title>Contact - dhruv.tech</title>
+    <% include partials/universal-head.ejs %>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <% include partials/universal-nav.ejs %>
+      <section class="row theme-color med" content="banner">
+        <center>
+          <hgroup id="page-headings">
+            <h1>Let's get in touch!</h1>
+            <h2>Please fill out the form below</h2>
+          </hgroup>
+        </center>
+      </section>
+      <section class="row">
+        <section class="col-lg-3" id="contact-side">
+          <h3>Additional Information</h3>
+          <br/>
+          <h4><b>Still haven’t received a response?</b></h4>
+          <p>Please send an email directly to public@dhruv.tech and ensure that the given email id is in your ‘safe senders list’. </p>
+          <br/>
+          <h4><b>Found a bug in a project?</b></h4>
+          <p>For GitHub projects, please create an issue on the repository of the project. Please click <a href="https://github.com/dhruv-tech/">here</a> to locate the repository. Not a GitHub project? Click <a href="/projects">here.</a> </p>
+        </section>
+
+        <section class="col-lg-9 contact-form">
+          <h3>Contact Form</h3><br/>
+          <form id="contact-form" onsubmit="return false">
+          <section class="row" id="status">
+            
+          </section>
+            <input type="text" placeholder="First Name" class="name-fields" id="fname" autocomplete="off" required>
+            <input type="text" placeholder="Last Name" class="name-fields" id="lname" autocomplete="off"><br/>
+            <input type="email" placeholder="Email Address" id="email" class="fullwidth-fields" autocomplete="off" required><br/>
+            <textarea rows="5" placeholder="Enter your message here..." id="msg" class="fullwidth-fields" required></textarea>
+            <button type="submit" id="contact" class="button-green button-dhruv btn button-send">Send Message</button>
+          </form>
+        </section>
+      </section>
+     
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <% include partials/universal-scripts.ejs %>
+    <script src="/static/contact.js"></script>
+  </body>
+</html>

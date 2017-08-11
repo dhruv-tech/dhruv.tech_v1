@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <% include partials/universal-head.ejs %>
+    <title>Projects - dhruv.tech</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <% include partials/universal-nav.ejs %>
+      <section class="row theme-color med" content="banner">
+        <center>
+          <hgroup id="page-headings">
+            <h1>My Projects</h1>
+            <h2>A look at <i>some</i> of my creations.</h2>
+          </hgroup>
+        </center>
+      </section>
+      <h3 style="color: grey; margin-top: 20px; margin-bottom: 20px; margin-left: 5.8%;">Mobile Apps</h3>
+      <section id="projects-content">
+
+        <section class="row project-card" id="project-enviro">
+          <aside class="project-img col-lg-2">
+            <img src="/static/images/enviro-logo.png" class="project-logo" alt="Enviro">
+          </aside>
+          <section class="project-about col-lg-9">
+            <article class="project-description">
+              <p>Currently in alpha stage, Enviro is a personalized air pollution monitoring application built for India in wake of the recent air pollution
+                crisis in Delhi. The app provides real-time air pollution infomation from government sites as well as US consulates
+                in India. Users can report any breathing discomfort that they may have at any point in time within India on the app
+                to detect patterns and get a rough of idea which pollutants they are likely to have senstivitiy towards. The app is
+                available on the Windows Universal Platform and will be extended to Android once it has matured. The app is certified by the Govt. of India.
+              </p>
+            </article>
+            <nav class="project-actions">
+              <a href="#"><div class="button-white button-project"><span>Coming Soon ➔</span></div></a>
+            </nav>
+          </section>
+        </section>
+
+        <section class="row project-card" id="project-stopwatch">
+          <aside class="project-img col-lg-2">
+            <img src="/static/images/stopwatch-logo.png" class="project-logo" alt="SISOS">
+          </aside>
+          <section class="project-about col-lg-9">
+            <article class="project-description" id="sisos-description">
+              <p>One of my first projects, 'Stopwatch by Dcode IN' is a simple stopwatch app that helps the user keep track of
+                the time they take for a particular activity. A bright and illuminated time panel at the top of the app shows 
+                the time taken to the nearest second while, a dark secondary panel under the time panel shows the laps that the user logged during his/her
+                activity. <i>Note: <b>'Dcode IN'</b> is my publisher name on the Windows Store.</i>
+              </p>
+            </article>
+             <a href="https://www.microsoft.com/store/apps/9njmzjbszkhv"><div class="button-white button-project"><span>View in Store ➔</span></div></a>
+          </section>
+        </section>
+
+
+        <h3 style="color: grey; margin-top: 20px; margin-bottom: 20px; margin-left: 5.8%;">Web Applications</h3>
+
+        <section class="row project-card" id="project-sisos">
+          <aside class="project-img col-lg-2">
+            <img src="/static/images/sisos-logo.png" class="project-logo" alt="SISOS">
+          </aside>
+          <section class="project-about col-lg-9">
+            <article class="project-description" id="sisos-description">
+              <p>SISOS was a web application that I created for my school to monitor student attendence beyond standard school hours.
+                The application works by demanding students to login using their mobile devices within 20 mins of the 
+                end of standard school hours and logging out using the same credentials at a kiosk present at all exits.
+                Allowed administrative staff can log into the application using their accounts to view a list of students
+                present in school at the time. The application was used as an interim solution before smart cards were 
+                introduced at the school.
+              </p>
+            </article>
+            <a href="#"><div class="button-white button-project" data-toggle="modal" data-target=".detailsModal-universal"><span>Screenshots ➔</span></div></a>
+          </section>
+        </section>
+
+        <section class="row project-card" id="project-mygov">
+          <aside class="project-img col-lg-2">
+            <img src="/static/images/mygov_bp-saas-logo.png" class="project-logo" alt="MyGov BP-SaaS">
+          </aside>
+          <section class="project-about col-lg-9">
+            <article class="project-description" id="mygov-description">
+              <p>Badges and Points as a Service (BP-SaaS) is a combination of a web service and a forntend plugin created
+                for MyGov (Ministry of Electronmics & Information Technology, Govt. of India) to help implement, calcuate
+                and manage points and badges for each user in a modular manner for all sub-systems of MyGov. 
+              </p>
+            </article>
+            <a href="https://mygov.in/"><div class="button-white button-project"><span>Visit Portal ➔</span></div></a>
+            <a><div class="button-white button-project govt" data-container="body" data-toggle="popover" data-placement="bottom" title="Unreleased Government Project" data-content="Screenshots cannot be displayed for this project as it is a 
+            Govenrment project that has not been revealed publically yet. The project has been integrated into the next major release of the portal, which is expected to launch between fall 2017 and early 2018.
+            The functionality provided by BP-SaaS will be visible upon signing in to the MyGov portal once it is released to the public."><span>Screenshots ➔</span></div></a>
+          </section>
+        </section>
+
+        <h3 style="color: grey; margin-top: 20px; margin-bottom: 20px; margin-left: 5.8%;">Open Source Projects</h3>
+        <section class="row project-card" id="project-simpletime">
+          <aside class="project-img col-lg-2">
+            <img src="/static/images/SimpleTime-logo.png" class="project-logo" alt="MyGov BP-SaaS">
+          </aside>
+          <section class="project-about col-lg-9">
+            <article class="project-description" id="mygov-description">
+              <p><b>Simple Time: </b>A project aimed to help frontend web developers deal with time-based events by providing a library
+                of common functions and simplifing syntax for dealing with such senarios.
+              </p>
+            </article>
+            <nav class="project-actions">
+              <a href="https://github.com/dhruv-tech/Simple-Time"><div class="button-white button-project"><span>Open Repo ➔</span></div></a>
+            </nav>
+          </section>
+        </section>
+
+      </section>
+      <div class="modal fade detailsModal-universal" tabindex="-1" role="dialog">
+        <% include partials/modal-content/sisos.ejs %>
+      </div>
+     
+    </div>
+
+    <% include partials/universal-scripts.ejs %>
+    <script>
+      $("[data-toggle=popover]").popover();
+    </script>
+  </body>
+</html>

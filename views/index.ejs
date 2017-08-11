@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <% include partials/universal-head.ejs %>
+    <title>Home - dhruv.tech</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <% include partials/universal-nav.ejs %>
+      <section class="row theme-color tall" content="banner">
+        <center>
+          <hgroup id="banner-headings">
+            <h1>I'm Dhruv.</h1>
+            <h2>an aspiring software developer.</h2>
+          </hgroup>
+        </center>
+      </section>
+
+      <section class="row content-card secondary-color" content="about-me">
+        <h3 class="content-headings">Who am I?</h3>
+        <p>I'm a student / part-time software developer based in India. I have a passion for programming and love to create for the web and mobile devices.</p>
+      </section>
+
+      <section class="row content-card tertiary-color" content="skills">
+        <h3 class="content-headings">Skills</h3>
+        <p>Over the years, I have self-learned & developed various technical skills such as: NodeJS, MongoDB, npm, HTML, CSS, JavaScript,
+        C#, WinJS, API Implementation, etc.</p>
+        <img src="/static/images/skills.png" alt="Logos of NodeJS, MongoDB, C# and Windows Universal Platform" id="skills-logos"/>
+        <a href="https://linkedin.com/in/dhruvmalik"><div class="button-white button-dhruv"><span>Know More ➔</span></div></a>
+      </section>
+      <section class="row content-card secondary-color" content="certifications">
+        <h3 class="content-headings">Certifications</h3>
+        <p>I am a Microsoft Certified Professional and Speacialist in Programming in JavaScript with HTML5 & CSS3. These 
+          certifications validate my ability to access and secure data as well as implement document structures, objects, and program flow.
+        </p>
+        <img src="/static/images/mcp.png" alt="Logos of MCP and MCPS earned by me" id="certification-logos"/>
+        <a href="https://www.youracclaim.com/badges/ec6c601d-3499-46f9-bc64-703702fcc3ea"><div class="button-green button-dhruv"><span>Know More ➔</span></div></a>
+      </section>
+      <section class="row content-card tertiary-color" content="projects-overview">
+        <h3 class="content-headings">Projects</h3>
+        <p>I have worked on various software development projects in diverse fields. These have helped me sharpen my programming, team management and leadership skills.
+          They have also given me a prespective on how I can use my knowledge to contribute in improving the world around me.
+        </p>
+        <img src="/static/images/dhruv-work.png" alt="Logos of projects I have done" id="project-logos"/>
+        <a href="/projects"><div class="button-white button-dhruv"><span>Know More ➔</span></div></a>
+      </section>
+      <section class="row content-card secondary-color" content="contact-banner">
+        <h3 class="content-headings">Questions? Like-minded?</h3>
+        <center>
+          <a href="/contact"><div class="button-contact"><span>Let's get in touch ➔</span></div></a>
+        </center>
+      </section>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <% include partials/universal-scripts.ejs %>
+  </body>
+</html>
