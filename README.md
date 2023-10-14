@@ -6,7 +6,7 @@ First personal website built during my high school days.
 
 🆕 Latest version of the site can be found [here](https://github.com/dhruv-tech/dhruv.tech).
 
-⌚ Next Version: [v1.x.x](https://github.com/dhruv-tech/dhruv.tech_v1)
+⌚ Next Version: [v2.x.x](https://github.com/dhruv-tech/dhruv.tech_v2)
 
 <img src="https://github.com/dhruv-tech/dhruv.tech_v1/assets/26849655/d565158c-f71c-469c-8bbd-547811d7d4b6" width="750" alt="screenshot of website">
 
