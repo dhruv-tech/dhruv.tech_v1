@@ -8,10 +8,8 @@ First personal website built during my high school days.
 
 ⌚ Next Version: [v1.x.x](https://github.com/dhruv-tech/dhruv.tech_v1)
 
-<img src="https://github.com/dhruv-tech/dhruv.tech_v1/assets/26849655/d565158c-f71c-469c-8bbd-547811d7d4b6" width="653" alt="screenshot of website">
-<img src="https://github.com/dhruv-tech/dhruv.tech_v1/assets/26849655/90dcb11f-ad9d-4249-96a0-c3598bdc5c01" width="200" alt="full page sbapshot of website">
+<img src="https://github.com/dhruv-tech/dhruv.tech_v1/assets/26849655/d565158c-f71c-469c-8bbd-547811d7d4b6" width="750" alt="screenshot of website">
 
-(Screenshots, click to enlarge)
 
 ## Tech Stack
 
