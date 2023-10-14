@@ -2,16 +2,27 @@
 
 (Archieved, Version 1.x.x, 2017)
 
-<img src="https://github.com/dhruv-tech/dhruv.tech_v1/assets/26849655/d565158c-f71c-469c-8bbd-547811d7d4b6" width="653" alt="screenshot of website">
+First personal website built during my high school days.
 
+🆕 Latest version of the site can be found [here](https://github.com/dhruv-tech/dhruv.tech).
+
+⌚ Next Version: [v1.x.x](https://github.com/dhruv-tech/dhruv.tech_v1)
+
+<img src="https://github.com/dhruv-tech/dhruv.tech_v1/assets/26849655/d565158c-f71c-469c-8bbd-547811d7d4b6" width="653" alt="screenshot of website">
 <img src="https://github.com/dhruv-tech/dhruv.tech_v1/assets/26849655/90dcb11f-ad9d-4249-96a0-c3598bdc5c01" width="200" alt="full page sbapshot of website">
 
 (Screenshots, click to enlarge)
 
+## Tech Stack
 
-Responsive website built with Node.js, EJS, Bootstrap 3 & JQuery 3 during my high school days.
+Responsive website built with:
 
-## Other Archieves
+* Node.js (for server side rendering)
+* EJS (for templating)
+* Bootstrap 3 (for styling)
+* JQuery 3 (frontend framework)
+
+## Other Archives
 
 * [STAR Module](https://github.com/dhruv-tech/star-module) (2017)
 * [SISOS](https://github.com/dhruv-tech/sisos) (2016)
